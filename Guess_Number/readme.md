@@ -8,7 +8,7 @@
 <img width="1771" height="916" alt="image" src="https://github.com/user-attachments/assets/eb6903fe-a4ac-47bf-b82a-b551ed006b16" />
 
 # Code:
-```
+```JavaScript
 const number = document.getElementById("Number");
 const answer = document.querySelector(".Answer");
 const guessed_numbers = document.querySelector(".guessed_numbers");
