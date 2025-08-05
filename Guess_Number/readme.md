@@ -1,13 +1,3 @@
-# HomePage
-<img width="1772" height="906" alt="image" src="https://github.com/user-attachments/assets/ecfaac5f-28a5-4a38-881a-1bd2523a6513" />
-# On entering numbers (Recorded the entered values)
-<img width="1785" height="908" alt="image" src="https://github.com/user-attachments/assets/0a6306de-10d1-4e32-adb6-cca62ee20dd1" />
-# On winning (Animations)
-<img width="1745" height="896" alt="image" src="https://github.com/user-attachments/assets/b9a49050-22a9-42b0-80b7-36e908dbc38b" />
-# On revealing answer (Disabled input field and submit button)
-<img width="1771" height="916" alt="image" src="https://github.com/user-attachments/assets/eb6903fe-a4ac-47bf-b82a-b551ed006b16" />
-
-# Code:
 ```JavaScript
 const number = document.getElementById("Number");
 const answer = document.querySelector(".Answer");
@@ -109,8 +99,4 @@ restartButton.addEventListener("click", () => {
   guessed_numbers.textContent = "Your guessed numbers are:";
   randomNum = Math.round(Math.random() * 100);
 });
-
 ```
-
-
-
